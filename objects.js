@@ -5,4 +5,5 @@ var meals = new Object({
 var playlist = { kendrick: "high power", travis: "goosebumps" };
 function updatePlaylist(playlist, artistName, songTitle) {
   playlist.artistName(songTitle);
+  return playlist;
 }
