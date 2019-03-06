@@ -3,4 +3,6 @@ var meals = new Object({
   breakfast: 'oatmeal'
 });
 var playlist = { kendrick: "high power", travis: "goosebumps" }
-function
+function updatePlaylist(playlist, artistName, songTitle) {
+  playlist.artistName(songTitle);
+}
